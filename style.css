@@ -1,12 +1,17 @@
-#placeholder >div{
+#placeholder > div {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column;
     height: 150px;
     width: 150px;
 }
+
+#placeholder > div > div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 #placeholder {
     width: 600px;
-    height: 300px;
     display: flex;
     flex-flow: row wrap;
 }
