@@ -226,32 +226,46 @@ let front_button = document.getElementById("front-turn-button")
 front_button.addEventListener("click", () => {
     kostkaObj.frontTurn()
 })
+let front_button_prime = document.getElementById("front-turn-button-prime")
+front_button_prime.addEventListener("click", () => {
+    kostkaObj.frontTurn(true)
+})
 let left_button = document.getElementById("left-turn-button")
 left_button.addEventListener("click", () => {
     kostkaObj.leftTurn()
+})
+let left_button_prime = document.getElementById("left-turn-button-prime")
+left_button_prime.addEventListener("click", () => {
+    kostkaObj.leftTurn(true)
 })
 let right_button = document.getElementById("right-turn-button")
 right_button.addEventListener("click", () => {
     kostkaObj.rightTurn()
 })
+let right_button_prime = document.getElementById("right-turn-button-prime")
+right_button_prime.addEventListener("click", () => {
+    kostkaObj.rightTurn(true)
+})
 let upper_button = document.getElementById("upper-turn-button")
 upper_button.addEventListener("click", () => {
     kostkaObj.upperTurn()
+})
+let upper_button_prime = document.getElementById("upper-turn-button-prime")
+upper_button_prime.addEventListener("click", () => {
+    kostkaObj.upperTurn(true)
 })
 let down_button = document.getElementById("down-turn-button")
 down_button.addEventListener("click", () => {
     kostkaObj.downTurn()
 })
+let down_button_prime = document.getElementById("down-turn-button-prime")
+down_button_prime.addEventListener("click", () => {
+    kostkaObj.downTurn(true)
+})
 
 let scramble_button = document.getElementById("scramble-button")
 scramble_button.addEventListener("click", () => {
-    let possibleMethods = [
-        "frontTurn",
-        "leftTurn",
-        "rightTurn",
-        "upperTurn",
-        "downTurn"
-    ]
+    let possibleMethods = ["frontTurn", "leftTurn", "rightTurn", "upperTurn", "downTurn"]
 
     let scrambleMethods = []
 
