@@ -1,0 +1,42 @@
+#placeholder >div{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 150px;
+    width: 150px;
+}
+#placeholder {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.policko {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.W {
+    background-color: white;
+}
+
+.G {
+    background-color: darkgreen;
+}
+
+.B {
+    background-color: deepskyblue;
+}
+
+.R {
+    background-color: darkred;
+}
+
+.O {
+    background-color: orange;
+}
+
+.Y {
+    background-color: yellow;
+}
