@@ -278,3 +278,8 @@ scramble_button.addEventListener("click", () => {
         kostkaObj[scrambleMethod]()
     }
 })
+
+let reset_button = document.getElementById("reset-button")
+reset_button.addEventListener("click",()=>{
+    kostkaObj = new Kostka()
+})
